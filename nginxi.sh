@@ -1,3 +1,7 @@
+#christian no touch
+
+
+
 sudo apt install curl gnupg2 ca-certificates lsb-release debian-archive-keyring
 
 curl https://nginx.org/keys/nginx_signing.key | gpg --dearmor \
