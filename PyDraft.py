@@ -4,7 +4,6 @@ import random
 health = 100
 hunger = 0
 
-Winning_easteregg = input("Dexter destroys!")
 medkit = ["water", "bandaids", "meds", "radio", "flare"]
 
 
