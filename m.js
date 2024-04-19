@@ -8,8 +8,8 @@ function help(){
             "Use div to divide all other arguments. This divides from 1, initially.")
 }
 while(true){
-  ARGS = prompt("Evaluate!> ");
-  args = ARGS.split(" ").;
+  const ARGS = prompt("Evaluate!> ");
+  var args = ARGS.split(" ");
   operation = args.shift();
   args = args.map(arg=>((arg=="ans")?ans:parseFloat(arg)));
   switch(operation){
