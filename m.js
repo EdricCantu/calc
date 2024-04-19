@@ -29,12 +29,12 @@ while(true){
       mem.push(ARGS+" = "+ans);
       break;
     case "div":
-      ans = args.reduce((acc,add)=>(acc/add), 1));
+      ans = args.reduce((acc,add)=>(acc/add), 1);
       mem.push(ARGS+" = "+ans);
       alert(y);
       break;
     case "mem":
-      alert(mem.slice(-5))join("\n")
+      alert(mem.slice(-5).join("\n"))
       break;
   }
 }
