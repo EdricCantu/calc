@@ -17,21 +17,24 @@ while(true){
       help();
       break;
     case "add":
-      ans = alert(args.reduce((acc,add)=>(acc+add), 0));
+      ans = args.reduce((acc,add)=>(acc+add), 0);
       mem.push(ARGS+" = "+ans);
+      alert(ans);
       break;
     case "sub":
-      ans = alert(args = reduce((acc,add)=>(acc-add), 0))
+      ans = args.reduce((acc,add)=>(acc-add), 0)
       mem.push(ARGS+" = "+ans);
+      alert(ans);
       break;
     case "mul":
-      ans = alert(args.reduce((acc,add)=>(acc*add), 1));
+      ans = args.reduce((acc,add)=>(acc*add), 1);
       mem.push(ARGS+" = "+ans);
+      alert(ans);
       break;
     case "div":
       ans = args.reduce((acc,add)=>(acc/add), 1);
       mem.push(ARGS+" = "+ans);
-      alert(y);
+      alert(ans);
       break;
     case "mem":
       alert(mem.slice(-5).join("\n"))
