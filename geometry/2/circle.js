@@ -62,4 +62,4 @@ class Circle{
   }
 }
 
-export default Circle;
+export Circle;
