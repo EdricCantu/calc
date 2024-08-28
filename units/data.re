@@ -2,7 +2,7 @@
 Data Storage
 
 --MODE ~the mode, how the unit works.
-based ~ means that the unit category has a single foundational that can be flawlessly converted to from any other unit as an integer
+foundational ~ means that the unit category has a single foundational that can be flawlessly converted to from any other unit as an integer
 
 --FUNC ~ like mathematical functions, makes it easier on the eyes. arguments are in terms of before and after the letter, represented with brackets.
 b = 2^[1]
