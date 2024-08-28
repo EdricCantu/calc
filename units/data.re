@@ -2,13 +2,13 @@
 Data Storage
 
 --MODE ~the mode, how the unit works.
-foundational ~ means that the unit category has a single foundational that can be flawlessly converted to from any other unit as an integer
+foundational ~ means that the unit category has a single foundational unit that can be flawlessly converted to from any other unit as an integer
 
---FUNC ~ like mathematical functions, makes it easier on the eyes. arguments are in terms of before and after the letter, represented with brackets.
+--FUNC ~ like mathematical functions, makes it easier on the eyes. arguments are in terms of before and after the letters, represented with brackets.
 b = 2^[1]
 e = [-1]*(10^[1])
 
---UNIT ~ units. in based mode, one unit is required to have the ampersand sign as its value, 
+--UNIT ~ units. in foundational mode, one unit is required to have the ampersand sign as its value, 
 
 ---small ~ subsection of the UNIT section, depicted with an extra dash.
 b     Bit             = & ~ the foundation. all other units are more than this unit, and are integers above 1 in relation to this unit. this unit is implied to be "1".
